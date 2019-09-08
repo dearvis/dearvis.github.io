@@ -1,0 +1,368 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.git
+{
+  float: center; 
+  /* Moves all buttons from left side of page, right side of page*/
+ /*from up to down on left side of page*/
+  width: 56px;
+  height: 56px;
+  border: 2px solid #909090;
+  border-radius: 50%;
+  margin-top: 1%;
+  display: flex;
+  align-items: flex-start;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  margin-left: 45%;
+  flex-shrink: 0;
+} 
+
+.git i
+{
+    font-size: 20px;
+    align-self: center; /* icon at top of circle */
+    color: #909090;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    margin: 0 auto;
+}
+
+.git i::before
+{
+  display:inline-block;
+  text-decoration:none;
+}
+
+.git:hover
+{
+  background: rgba(0,0,0,0.2);
+}
+
+.git:hover i
+{
+  color:#fff;
+}
+
+.mail
+{
+  text-decoration: none;
+  color: black;
+}
+
+.bitbucket
+{
+  text-decoration: none;
+  color: black;
+}
+
+.linkedin
+{
+  text-decoration: none;
+  color: black;
+}
+
+.github
+{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--LastName Attributes--*/
+span.lName 
+{ 
+    color:black;
+    font-weight:bold;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    text-shadow: none;
+    font-size: 18px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/*--firstName Attributes--*/
+span.fName 
+{ 
+    color:white;
+    font-weight:bold;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-size: 18px; 
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+#contact_page
+{
+  border-bottom: 5px solid  white;
+  border-bottom-width: 2px;
+}
+
+
+  /* Navigation Bar Attributes*/
+  nav {
+    position: fixed;
+    bottom: 87%;
+    left: 50%;
+    width: calc(100% - 50%);
+    height: 12%;
+
+    margin: 0 auto;
+    padding: 10px 0;
+    background: rgb(102, 92, 92);
+    z-index: 1;
+    text-align: right;
+    padding-top: 1px;
+  }
+  
+  .logo {
+    float: left;
+    padding-left: 2%;
+    padding-top: 4%;
+  }
+  
+  .menu-area li {
+    display: inline-block;
+  }
+  
+  /* Home, Contact, Portfolio Attributes*/
+  .menu-area a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    padding-top: 13%;
+    border-bottom: 5px solid  rgb(102, 92, 92);
+    border-bottom-width: 2px;
+  }
+
+  .menu-area a:hover {
+    border-bottom: 5px solid white;
+    border-bottom-width: 2px;  
+  }
+
+  
+  nav:before {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-right: 10px solid #333;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    left: 0;
+  }
+  
+  nav:after {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-left: 10px solid #333;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    right: 0;
+  }
+  
+
+.media
+{
+  padding-top: 21%;
+}
+
+
+
+.social-links
+{
+    display: flex;
+    align-items:center;
+    margin-left: 12%;
+    padding-left: 20%;   
+    left: 20%;
+  }
+
+.social-links2
+{
+  padding-top: 0%;
+  padding-right: 0%;
+}
+
+.social-links2 a{
+      text-align:right;
+      float: center; 
+      /* Moves all buttons from left side of page, right side of page*/
+     /*from up to down on left side of page*/
+      width: 56px;
+      height: 56px;
+      border: 2px solid #909090;
+      border-radius: 100%;
+      margin-top: 1%;
+      display: flex;
+      align-items: flex-start;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+      margin-left: 45%;
+  } 
+  .social-links2 a i{
+      font-size: 20px;
+      align-self: center; /* icon at top of circle */
+      color: white;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+      margin: 0 auto;
+  }
+  .social-links2 a i::before{
+    display:inline-block;
+    text-decoration:none;
+  }
+  .social-links2 a:hover{
+    background: rgba(0,0,0,0.2);
+  }
+  .social-links2 a:hover i{
+    color:#fff;
+  }
+
+  .email
+  {
+    font-style: italic;
+  }
+
+.email:hover
+{
+  text-decoration: underline;
+}
+
+  .footer
+  {
+    position: fixed;
+    background: black;
+    width: 100%;
+    left: 0%;
+    height:15%;
+    top: 85%;
+  }
+
+  .header
+  {
+    position: fixed;
+    background: white;
+    width: 100%;
+    left: 0%;
+    height:48%;
+    top: 19%;
+  }
+
+
+  /* Header, Paragraph Setting */
+  .text_1
+  {
+    color: black;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30 ;
+    position: fixed;
+    padding-top: 14%;
+    padding-left: 5%;
+  }
+
+  .title
+  {
+    font-weight:bold;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-size:30; 
+
+    color:black;
+    text-shadow: none;
+    font-size:50;
+    position: fixed;
+    padding-top: 7%;
+    padding-left: 10%;
+    text-decoration: underline;
+  }
+
+  .text_2
+  {
+    color:grey;
+    font-weight:bold;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    text-shadow: none;
+    font-size:50;
+    position: fixed;
+    padding-top: 3%;
+    padding-left: 35%;    
+  }
+
+  
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	body {
+		background-image: url("/assets/images/contact_backdrop.jpg");
+		background-repeat: repeat, no-repeat;
+		background-size: auto, 100% 100%;
+		background-attachment: fixed;
+		overflow-y: scroll;
+  }
+  

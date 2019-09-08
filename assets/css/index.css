@@ -1,0 +1,258 @@
+
+
+
+/*--Job Label Attributes--*/
+p.job_label 
+{ 
+    color:black;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30 ;
+    position: fixed;
+    bottom: 39%;
+    left: 29%;
+}
+
+
+/*--FirstName Attributes--*/
+h1.fName 
+{ 
+    position: fixed;
+    bottom: 43%;
+    left: 32%;
+    width: calc(100% - 50%);
+    color:white;
+    font-weight:bold;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-size: 40;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*--LastName Attributes--*/
+span.lName 
+{ 
+    color:black;
+    font-weight:bold;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    text-shadow: none;
+    font-size:30;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/*--firstName Attributes--*/
+span.fName 
+{ 
+    color:white;
+    font-weight:bold;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-size:30; 
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#home_page
+{
+  border-bottom: 5px solid  white;
+  border-bottom-width: 2px;
+}
+
+  .wrapper {
+    display: inline-flex;
+    justify-content: center;
+  }
+  .wrapper i {
+    padding: 10px;
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+    transition: all ease-in-out 150ms;
+  }
+
+  /*linkedIn*/
+  .wrapper a:nth-child(1) {
+    color: black;
+    width: 55%;
+    position: fixed;
+    bottom: 23%;
+    left: 46%;
+  }
+
+  /* Github*/
+  .wrapper a:nth-child(2) {
+    color: black;
+    position: fixed;
+    bottom: 23%;
+    left: 38%;
+  }
+
+/* Resume*/
+.wrapper a:nth-child(3) {
+  color: black;
+  position: fixed;
+  bottom: 23%;
+  left: 55%;
+}
+
+  
+span.captionL
+{
+  width: 5%;
+  position: fixed;
+  bottom: 20%;
+  left: 45%;
+}
+
+span.captionG
+{
+  width: 5%;
+  position: fixed;
+  bottom: 20%;
+  left: 37%;
+}
+ 
+span.captionR
+{
+  width: 5%;
+  position: fixed;
+  bottom: 20%;
+  left: 54%;
+}
+
+
+.wrapper i:hover {
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    background: none;
+    color: white;
+  }
+  
+
+
+
+  /* Navigation Bar Attributes*/
+  nav {
+    position: fixed;
+    bottom: 80%;
+    left: 48%;
+    width: calc(100% - 50%);
+    
+    margin: 0 auto;
+    padding: 10px 0;
+    background: rgb(102, 92, 92);
+    z-index: 1;
+    text-align: right;
+    padding-top: 1px;
+  }
+  
+  .logo {
+    float: left;
+    padding-left: 2%;
+    padding-top: 3%;
+  }
+  
+  .menu-area li {
+    display: inline-block;
+  }
+  
+  /* About Portfolio Contact*/
+  .menu-area a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    border-bottom: 5px solid  rgb(102, 92, 92);
+    border-bottom-width: 2px;
+  }
+  .menu-area a:hover {
+    border-bottom: 5px solid white;
+    border-bottom-width: 2px;   
+  }
+
+  
+  nav:before {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-right: 10px solid #333;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    left: 0;
+  }
+  
+  nav:after {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-left: 10px solid #333;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    right: 0;
+  }
+  
+
+
+  /* Basic */
+
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	body {
+		background-image: url("../images/overlay.png"), url("../images/marble.jpg");
+		background-repeat: repeat, no-repeat;
+		background-size: auto, 100% 100%;
+		background-attachment: fixed;
+		overflow-y: scroll;
+	}
+
+		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
+
+
+
+		@media screen and (max-width: 1680px) {
+
+			body {
+				font-size: 15pt;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			body{
+				font-size: 14pt;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			body{
+				font-size: 12pt;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			body{
+				font-size: 11pt;
+			}
+
+		}

@@ -1,0 +1,102 @@
+
+/* Portfolio Row Container*/
+.row_1
+{
+  background-color: yellow;
+  position: relative;
+  bottom: 5%;
+  left: 0%;
+  width: 99%;
+  height: 53%;
+  margin-top: 7%;
+  z-index: 1;
+}
+
+div.item {
+  /* To correctly align image, regardless of content height: */
+  vertical-align: top;
+  display: inline-block;
+  /* To horizontally center images and caption */
+  text-align: center;
+  /* The width of the container also implies margin around the images. */
+  width: 370px;
+  padding-left: 3%;
+  margin-left: 1%;
+}
+
+img 
+{
+  width: 350px;
+  height: 290px;
+  border-radius: 15px;
+  border:3px solid black;
+}
+
+/* eyespy, puzzle and rsa hover decsription*/
+.text-block
+{
+  position: absolute;
+  top: 0%;
+  left: 4.7%;
+  width: 360px;
+  height: 300px;
+  color:white;
+  background: black;
+  font-family: 'serif';
+  font-size: 17px;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.text-block_grid
+{
+  position: absolute;
+  top: 0%;
+  left: 35.7%;
+  width: 364px;
+  height: 300px;
+  color:white;
+  background: black;
+  font-family: 'serif';
+  font-size: 17px;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.text-block_rsa
+{
+  position: absolute;
+  top: 0%;
+  left: 67.7%;
+  width: 364px;
+  height: 300px;
+  color:white;
+  background: black;
+  font-family: 'serif';
+  font-size: 17px;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+
+
+
+.caption
+{
+  /* Make the caption a block so it occupies its own line. */
+  display: block;
+  font-weight:bold;
+  font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+  font-size:30;
+}
+
+
+.click_me
+{
+  font-weight:bold;
+  font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+  font-size:30;
+}
+
+
+
