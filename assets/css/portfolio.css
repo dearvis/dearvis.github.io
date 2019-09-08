@@ -403,6 +403,7 @@ padding-left: 2%; /* Padding moves object to left but rearranges other objects *
     float: left;
     padding-left: 2%;
     padding-top: 3%;
+    cursor: pointer;
   }
   
   .menu-area li {
